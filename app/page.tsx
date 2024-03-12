@@ -18,7 +18,7 @@ export default function Page() {
                 </h1>
             </div>
 
-            <Image 
+            <img 
               className={`${styles.heroCompanies}`} 
               src="/company_logos.png"
               alt="Think First and Overseas Study Centre logos" 
@@ -26,7 +26,7 @@ export default function Page() {
 
             <div className={`${styles.heroSocials}`}>
               <button className={`${styles.heroSocialButton}`}>
-                <Image 
+                <img 
                   className={`${styles.heroSocialIcon}`}
                   src="/insta_icon.png"
                   alt="Instagram logo" 
@@ -34,7 +34,7 @@ export default function Page() {
                 oscindonesia
               </button>
               <button className={`${styles.heroSocialButton}`}>
-                <Image 
+                <img 
                   className={`${styles.heroSocialIcon}`}
                   src="/whatsapp_icon.png"
                   alt="Whatsapp icon" 
