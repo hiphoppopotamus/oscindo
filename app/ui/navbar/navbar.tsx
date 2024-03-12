@@ -4,7 +4,7 @@ import React from 'react'
 
 const NavigationBar = () => {
   return (
-    <div className="navbar bg-base-100 content-end">
+    <div className="navbar bg-base-200 content-end">
       <div className="flex-1">
         <Link className="btn btn-ghost text-2xl" href="/">Overseas Study Centre</Link>
       </div>
