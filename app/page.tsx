@@ -39,7 +39,7 @@ export default function Page() {
                   src="/whatsapp_icon.png"
                   alt="Whatsapp icon" 
                 />
-                +62 81 2300 5470 / +64 224 298 449
+                +628123005470 / +64224298449
               </button>
             </div> 
           </div>

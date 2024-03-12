@@ -19,6 +19,8 @@
   background-image: url(/wellington_opacity_50.png);
   background-position: center;
   background-size: cover;
+
+  border-radius: 8px;
 }
 
 .heroContent {
@@ -70,6 +72,7 @@
   height: 100%;
   width: fit-content;
 
+  text-align: left;
   font-size: 15px;
   font-weight: bold;
   color: white;
@@ -122,11 +125,30 @@
 }
 
 @media (max-width: 630px) {
+  .heroContainer {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .heroContent {
+    width: 80%;
+  }
+
   .heroTitleCardText {  
     font-size: 40px;
   }
   
   .heroTitleCardText span {
     font-size: 95px;
+  }
+}
+
+@media (max-width: 390px) {
+  .heroTitleCardText {  
+    font-size: 25px;
+  }
+  
+  .heroTitleCardText span {
+    font-size: 65px;
   }
 }
