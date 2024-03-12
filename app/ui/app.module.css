@@ -64,7 +64,7 @@
   /* background-color: blue; */
 }
 
-.heroSocialChip {
+.heroSocialButton {
   flex-grow: 1;
   background-color: rgba(0, 0, 0, 0.55);
   height: 100%;
@@ -81,6 +81,11 @@
   align-items: center;
 }
 
+.heroSocialButton:hover {
+  outline: 5px solid rgba(255, 255, 255, 0.8);
+  transition: 0.4s;
+}
+
 .heroSocialIcon {
   width: 30px;
   height: 30px;
@@ -90,21 +95,29 @@
 
 @media (max-width: 1315px) {
   .heroContent {
-    width: 65%;
+    width: 50%;
+  }
+
+  .heroTitleCardText {  
+    font-size: 50px;
+  }
+  
+  .heroTitleCardText span {
+    font-size: 120px;
   }
 
   .heroSocials {
     flex-direction: column;
   }
 
-  .heroSocialChip {
+  .heroSocialButton {
     width: 100%;
   }
 }
 
 @media (max-width: 854px) {
   .heroContent {
-    width: 85%;
+    width: 75%;
   }
 }
 

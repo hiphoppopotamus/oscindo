@@ -25,24 +25,23 @@ export default function Page() {
             />
 
             <div className={`${styles.heroSocials}`}>
-              <div className={`${styles.heroSocialChip}`}>
+              <button className={`${styles.heroSocialButton}`}>
                 <img 
                   className={`${styles.heroSocialIcon}`}
                   src="/insta_icon.png"
                   alt="Instagram logo" 
                 />
                 oscindonesia
-              </div>
-              <div className={`${styles.heroSocialChip}`}>
+              </button>
+              <button className={`${styles.heroSocialButton}`}>
                 <img 
                   className={`${styles.heroSocialIcon}`}
                   src="/whatsapp_icon.png"
                   alt="Whatsapp icon" 
                 />
                 +62 81 2300 5470 / +64 224 298 449
-                </div>
-            </div>
-            
+              </button>
+            </div> 
           </div>
         </div>
       </div>
